@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Easy Shop",
+	"version": "1.0",
+
+	"description": "Simplify the amazon shopping experience by removing bloated content",
+
+	"icons": {
+		"128": "icons/easy-128.png",
+		"64": "icons/easy-64.png",
+		"32": "icons/easy-32.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.amazon.in/*"],
+			"js": ["easy-shop.js"]
+		}
+	]
+}
