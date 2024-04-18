@@ -7,44 +7,29 @@ const hide_element = function(doc, selector) {
 
 const debloat_product_page = function() {
 	/* deal badge */
-	let deal_badge_div = document.getElementById("dealBadge_feature_div");
-	if (deal_badge_div) {
-		deal_badge_div.style.display = "none";
-	}
+	let dealbadge_feature_selector = "#dealBadge_feature_div";
 
 	/* emi information */
-	let emi_feature_div = document.getElementById("inemi_feature_div");
-	if (emi_feature_div) {
-		emi_feature_div.style.display = "none";
-	}
+	let inemi_feature_selector = "#inemi_feature_div";
 
 	/* b2b upsell */
-	let b2b_upsell_div = document.getElementById("b2bUpsell_feature_div");
-	if (b2b_upsell_div) {
-		b2b_upsell_div.style.display = "none";
-	}
+	let b2bupsell_feature_selector = "#b2bUpsell_feature_div";
 
 	/* mrp */
-	// let price_div = document.getElementById("corePriceDisplay_desktop_feature_div");
-	let mrp_div_desktop = document.querySelector("#corePriceDisplay_desktop_feature_div > .a-spacing-small");
-	let mrp_div_android = document.querySelector("#corePriceDisplay_mobile_feature_div > .a-spacing-small");
-	if (mrp_div_desktop) {
-		mrp_div_desktop.style.display = "none";
-	}
-	if (mrp_div_android) {
-		mrp_div_android.style.display = "none";
-	}
-
+	let mrp_desktop_feature_selector = "#corePriceDisplay_desktop_feature_div > .a-spacing-small";
+	let mrp_android_feature_selector = "#corePriceDisplay_mobile_feature_div > .a-spacing-small";
 
 	/* discount */
-	let discount_div_desktop = document.querySelector("#corePriceDisplay_desktop_feature_div > .a-spacing-none > .savingsPercentage");
-	let discount_div_android = document.querySelector("#corePriceDisplay_mobile_feature_div > .a-spacing-none > .savingsPercentage");
-	if (discount_div_desktop) {
-		discount_div_desktop.style.display = "none";
-	}
-	if (discount_div_android) {
-		discount_div_android.style.display = "none";
-	}
+	let discount_desktop_feature_selector = "#corePriceDisplay_desktop_feature_div > .a-spacing-none > .savingsPercentage";
+	let discount_android_feature_selector = "#corePriceDisplay_mobile_feature_div > .a-spacing-none > .savingsPercentage";
+	
+	hide_elem(document, dealbadge_feature_selector);
+	hide_elem(document, inemi_feature_selector);
+	hide_elem(document, b2bupsell_feature_selector);
+	hide_elem(document, mrp_desktop_feature_selector);
+	hide_elem(document, mrp_android_feature_selector);
+	hide_elem(document, discount_desktop_feature_selector);
+	hide_elem(document, discount_android_feature_selector);
 };
 
 debloat_product_page();
