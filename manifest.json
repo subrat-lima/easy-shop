@@ -4,7 +4,7 @@
 	"version": "0.0.3",
 
 	"description": "Simplify the amazon shopping experience by removing bloated content",
-	"homepage_url": "https://github.com/subrat-lima/easy-shop"
+	"homepage_url": "https://github.com/subrat-lima/easy-shop",
 
 	"icons": {
 		"128": "icons/easy-128.png",
