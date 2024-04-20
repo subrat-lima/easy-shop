@@ -19,6 +19,7 @@ const selectors = [
 	/* rates */
 	"#dealBadge_feature_div",
 	"#inemi_feature_div",
+	"#inEMI_feature_div",
 	"#b2bUpsell_feature_div",
 	"#corePriceDisplay_desktop_feature_div > .a-spacing-small",
 	"#corePriceDisplay_mobile_feature_div > .a-spacing-small",
@@ -30,6 +31,14 @@ const selectors = [
 
 	"#booksAdditionalPriceInfoContainer",
 	"#amsDetailRightPBook_feature_div",
+	"#HLCXComparisonWidget-Placement-A_feature_div",
+	"#HLCXComparisonWidget_feature_div",
+	"#regular_savings_sticker",
+	"#tp_price_update_feature_in",
+	".inline-show-experience",
+	"#apex_price > .centralizedApexBasisPriceCSS",
+	"#sponsoredProducts_pBooks_IN_feature_div",
+	"[data-cel-widget^='relatedPoductZone']",
 
 	"#corePrice_desktop table.a-lineitem > tbody > tr:nth-child(4)",
 	"#corePrice_desktop table.a-lineitem > tbody > tr:nth-child(3)",
@@ -42,7 +51,10 @@ const selectors = [
 	/* ads */
 	".AdHolder",
 	".s-left-ads-item",
+	".s-widget-spacing-large",
 	"[data-cel-widget^='MAIN-VIDEO_SINGLE_PRODUCT']",
+	"[cel-widget-id^='MAIN-VISUAL_NAVIGATION-']",
+	"[cel-widget-id^='MAIN-FEATURE_CARD-']",
 	".amzn-safe-frame-container",
 	"#heroQuickPromo_feature_div",
 
@@ -54,9 +66,13 @@ const selectors = [
 	".s-price-instructions-style > .a-row > .a-row > .a-link-normal > .a-section.aok-inline-block",
 	".s-price-instructions-style > .a-row > .a-row > .a-letter-space + span",
 	".s-price-instructions-style > .a-row > .a-row > .a-letter-space",
+	".s-price-instructions-style > .a-row > .a-row > .a-section.aok-inline-block",
 	".puis-price-instructions-style > .a-row > .a-row > .a-link-normal > .a-section.aok-inline-block",
 	".puis-price-instructions-style > .a-row > .a-row > .a-letter-space + span",
 	".puis-price-instructions-style > .a-row > .a-row > .a-letter-space",
+	"[data-cy='price-recipe'] .a-letter-space + span",
+	"[data-cy='price-recipe'] .a-letter-space",
+	"[data-cy='price-recipe'] .aok-inline-block", /* experimental */
 ];
 
 selectors.forEach(selector => {
