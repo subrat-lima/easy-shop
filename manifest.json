@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Easy Shop",
-	"version": "0.0.4",
+	"version": "0.0.5",
 
 	"description": "Simplify the amazon shopping experience by removing bloated content",
 	"homepage_url": "https://github.com/subrat-lima/easy-shop",
