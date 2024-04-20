@@ -2,7 +2,8 @@
 #corePriceDisplay_desktop_feature_div > div.a-section.a-spacing-small,
 #corePriceDisplay_mobile_feature_div > div.a-section.a-spacing-small,
 span.a-text-strike,
-#newBooksAdditionalPriceInfo_feature_div
+#newBooksAdditionalPriceInfo_feature_div,
+#Ebooks-mobile-KINDLE_ALC-prices-savingPrice
 {
 	display: none !important;
 }

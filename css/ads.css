@@ -8,11 +8,17 @@
 #ad-endcap-1-drambot_feature_div,
 #gridgetWrapper,
 #dp-ads-center-promo-dramabot_feature_div,
+[id*="Dramabot_feature"],
 [id*="-sponsored-products-"],
 div[id^="ad-"],
 #inemi_feature_div,
+#inEMI_feature_div,
 #b2bUpsell_feature_div,
-#buyItOnAB_feature_div
+#buyItOnAB_feature_div,
+#hero-quick-promo_feature_div,
+[id*="sponsoredProduct"],
+[id*="-ads-"],
+#detailILMPercolate_feature_div
 {
 	display: none !important;
 }
@@ -26,7 +32,8 @@ div[id^="ad-"],
 /* search page */
 .AdHolder,
 div[class*="advertising"],
-div[class*="template=VIDEO_SINGLE_PRODUCT"]
+div[class*="template=VIDEO_SINGLE_PRODUCT"],
+div[class*="template=FEATURE_CARD"]
 {
 	display: none !important;
 }
