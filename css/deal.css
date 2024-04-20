@@ -1,6 +1,7 @@
 /* product page */
 #dealBadge_feature_div,
-.savingsPercentage
+.savingsPercentage,
+#simpleBundle_feature_div
 {
 	display: none !important;
 }
@@ -10,6 +11,8 @@ a[href^="/gp/goldbox"],
 span[class*="_dealBadge_"],
 span[class*="_style_badge_"],
 [class*="deal-badge"],
+[class*="dealBadge"],
+div.a-section.a-spacing-none > span.a-size-mini.a-color-secondary,
 #valuePick_container
 {
 	display: none !important;
