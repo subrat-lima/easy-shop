@@ -1,3 +1,4 @@
+
 const selectors = [
 	/* product page */
 	/* ads */
@@ -75,9 +76,13 @@ const selectors = [
 	"[data-cy='price-recipe'] .aok-inline-block", /* experimental */
 ];
 
+
+
+let selector_array = [];
 selectors.forEach(selector => {
 	let elems = Array.from(document.querySelectorAll(selector));
 	elems.forEach(elem => {
 		elem.remove();
 	});
 });
+

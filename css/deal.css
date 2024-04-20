@@ -1,0 +1,13 @@
+/* product page */
+#dealBadge_feature_div,
+.savingsPercentage
+{
+	display: none;
+}
+
+/* search page */
+a[href^="/gp/goldbox"]
+{
+	display: none;
+}
+

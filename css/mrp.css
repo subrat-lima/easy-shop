@@ -1,0 +1,13 @@
+/* product page */
+#corePriceDisplay_desktop_feature_div > div.a-section.a-spacing-small,
+#corePriceDisplay_mobile_feature_div > div.a-section.a-spacing-small
+{
+	display: none;
+}
+
+/* search page */
+[data-cy="price-recipe"] div.aok-inline-block,
+[data-cy="price-recipe"] span.a-letter-space + span,
+{
+	display: none !important;
+}

@@ -1,0 +1,29 @@
+/* product page */
+#percolate-ui-ilm_div,
+#amsDetailRight_feature_div,
+#similarities_feature_div,
+#hqpWrapper,
+#discovery-and-inspiration_feature_div,
+#cr-ADPlaceholder,
+#ad-endcap-1-drambot_feature_div,
+#gridgetWrapper,
+#dp-ads-center-promo-dramabot_feature_div,
+[id*=-"sponsored-products-"],
+div[id^="ad-"]
+{
+	display: none;
+}
+
+/* comments page */
+.reviews-display-ad
+{
+	display: none;
+}
+
+/* search page */
+.AdHolder,
+div[class*="advertising"],
+div[class*="template=VIDEO_SINGLE_PRODUCT"]
+{
+	display: none !important;
+}
