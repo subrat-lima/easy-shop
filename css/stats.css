@@ -6,7 +6,14 @@
 }
 
 /* search page */
-div[class*="_ProductInsightsBlock_"]
+div[class*="_ProductInsightsBlock_"],
+div[class*="card-container"] span.a-size-base.a-color-secondary
+{
+	display: none !important;
+}
+
+/* cart page */
+.sc-product-scarcity
 {
 	display: none !important;
 }

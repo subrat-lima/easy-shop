@@ -24,3 +24,13 @@ div[class*="-atf_deals-"]
 	display: none !important;
 }
 
+/* shopping cart page */
+#cart-recs-carousel,
+#cart-item-recs,
+#sc-about,
+[class*="deals-badge"],
+.sc-badge-basis-price
+{
+	display: none !important;
+}
+
