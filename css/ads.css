@@ -8,22 +8,31 @@
 #ad-endcap-1-drambot_feature_div,
 #gridgetWrapper,
 #dp-ads-center-promo-dramabot_feature_div,
-[id*=-"sponsored-products-"],
-div[id^="ad-"]
+[id*="-sponsored-products-"],
+div[id^="ad-"],
+#inemi_feature_div,
+#b2bUpsell_feature_div,
+#buyItOnAB_feature_div
 {
-	display: none;
+	display: none !important;
 }
 
 /* comments page */
 .reviews-display-ad
 {
-	display: none;
+	display: none !important;
 }
 
 /* search page */
 .AdHolder,
 div[class*="advertising"],
 div[class*="template=VIDEO_SINGLE_PRODUCT"]
+{
+	display: none !important;
+}
+
+/* home page */
+#live-flagship-root
 {
 	display: none !important;
 }

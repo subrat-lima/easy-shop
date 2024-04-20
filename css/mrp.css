@@ -1,13 +1,28 @@
 /* product page */
 #corePriceDisplay_desktop_feature_div > div.a-section.a-spacing-small,
-#corePriceDisplay_mobile_feature_div > div.a-section.a-spacing-small
+#corePriceDisplay_mobile_feature_div > div.a-section.a-spacing-small,
+span.a-text-strike,
+#newBooksAdditionalPriceInfo_feature_div
 {
-	display: none;
+	display: none !important;
 }
 
 /* search page */
 [data-cy="price-recipe"] div.aok-inline-block,
+[data-cy="price-recipe"] > div.a-color-secondary,
 [data-cy="price-recipe"] span.a-letter-space + span,
+span.a-price[data-a-strike="true"],
+span.a-price[data-a-strike="true"] + span,
+span[class*="price-saving"],
+span[class*="_savingsPercent_"],
+span[class*="saving-percentage"]
+{
+	display: none !important;
+}
+
+/* home page */
+span[aria-label^="Deal Price:"] > span.a-letter-space + span,
+span[aria-label^="Price:"] > span.a-letter-space + span
 {
 	display: none !important;
 }

@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Easy Shop",
-	"version": "0.0.5",
+	"version": "0.0.6",
 
 	"description": "Simplify the amazon shopping experience by removing bloated content",
 	"homepage_url": "https://github.com/subrat-lima/easy-shop",
@@ -17,7 +17,8 @@
 	"content_scripts": [
 		{
 			"matches": ["*://*.amazon.in/*"],
-			"css": ["css/ads.css", "css/mrp.css", "css/deal.css", "css/stats.css"]
+			"css": ["css/ads.css", "css/mrp.css", "css/deal.css", "css/stats.css"],
+			"run_at": "document_start"
 		}
 	]
 }

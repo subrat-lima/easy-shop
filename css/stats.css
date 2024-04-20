@@ -2,5 +2,11 @@
 #socialProofingAsinFaceout_feature_div,
 #rhf
 {
-	display: none;
+	display: none !important;
+}
+
+/* search page */
+div[class*="_ProductInsightsBlock_"]
+{
+	display: none !important;
 }

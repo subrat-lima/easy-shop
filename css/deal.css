@@ -2,12 +2,22 @@
 #dealBadge_feature_div,
 .savingsPercentage
 {
-	display: none;
+	display: none !important;
 }
 
 /* search page */
-a[href^="/gp/goldbox"]
+a[href^="/gp/goldbox"],
+span[class*="_dealBadge_"],
+span[class*="_style_badge_"],
+[class*="deal-badge"],
+#valuePick_container
 {
-	display: none;
+	display: none !important;
+}
+
+/* home page */
+div[class*="-atf_deals-"]
+{
+	display: none !important;
 }
 
