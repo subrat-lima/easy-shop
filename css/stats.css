@@ -1,19 +1,19 @@
 /* product page */
-#socialProofingAsinFaceout_feature_div,
-#rhf
+.es-block-stats #socialProofingAsinFaceout_feature_div,
+.es-block-stats #rhf
 {
 	display: none !important;
 }
 
 /* search page */
-div[class*="_ProductInsightsBlock_"],
-div[class*="card-container"] span.a-size-base.a-color-secondary
+.es-block-stats div[class*="_ProductInsightsBlock_"],
+.es-block-stats div[class*="card-container"] span.a-size-base.a-color-secondary
 {
 	display: none !important;
 }
 
 /* cart page */
-.sc-product-scarcity
+.es-block-stats .sc-product-scarcity
 {
 	display: none !important;
 }

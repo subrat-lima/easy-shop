@@ -1,46 +1,46 @@
 /* product page */
-#percolate-ui-ilm_div,
-#amsDetailRight_feature_div,
-#similarities_feature_div,
-#hqpWrapper,
-#discovery-and-inspiration_feature_div,
-#cr-ADPlaceholder,
-#ad-endcap-1-drambot_feature_div,
-#gridgetWrapper,
-#dp-ads-center-promo-dramabot_feature_div,
-[id*="Dramabot_feature"],
-[id*="-sponsored-products-"],
-div[id^="ad-"],
-#inemi_feature_div,
-#inEMI_feature_div,
-#b2bUpsell_feature_div,
-#buyItOnAB_feature_div,
-#hero-quick-promo_feature_div,
-[id*="sponsoredProduct"],
-[id*="-ads-"],
-#detailILMPercolate_feature_div
+.es-block-ads #percolate-ui-ilm_div,
+.es-block-ads #amsDetailRight_feature_div,
+.es-block-ads #similarities_feature_div,
+.es-block-ads #hqpWrapper,
+.es-block-ads #discovery-and-inspiration_feature_div,
+.es-block-ads #cr-ADPlaceholder,
+.es-block-ads #ad-endcap-1-drambot_feature_div,
+.es-block-ads #gridgetWrapper,
+.es-block-ads #dp-ads-center-promo-dramabot_feature_div,
+.es-block-ads [id*="Dramabot_feature"],
+.es-block-ads [id*="-sponsored-products-"],
+.es-block-ads div[id^="ad-"],
+.es-block-ads #inemi_feature_div,
+.es-block-ads #inEMI_feature_div,
+.es-block-ads #b2bUpsell_feature_div,
+.es-block-ads #buyItOnAB_feature_div,
+.es-block-ads #hero-quick-promo_feature_div,
+.es-block-ads [id*="sponsoredProduct"],
+.es-block-ads [id*="-ads-"],
+.es-block-ads #detailILMPercolate_feature_div
 {
 	display: none !important;
 }
 
 /* comments page */
-.reviews-display-ad
+.es-block-ads .reviews-display-ad
 {
 	display: none !important;
 }
 
 /* search page */
-.AdHolder,
-div[class*="advertising"],
-div[class*="template=VIDEO_SINGLE_PRODUCT"],
-div[class*="template=FEATURE_CARD"],
-[data-cel-widget^="MAIN-FEATURED_ASINS_LIST"]
+.es-block-ads .AdHolder,
+.es-block-ads div[class*="advertising"],
+.es-block-ads div[class*="template=VIDEO_SINGLE_PRODUCT"],
+.es-block-ads div[class*="template=FEATURE_CARD"],
+.es-block-ads [data-cel-widget^="MAIN-FEATURED_ASINS_LIST"]
 {
 	display: none !important;
 }
 
 /* home page */
-#live-flagship-root
+.es-block-ads #live-flagship-root
 {
 	display: none !important;
 }

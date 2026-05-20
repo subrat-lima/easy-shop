@@ -1,0 +1,78 @@
+/* Easy Shop - Modern Responsive Theme with Unified Design Tokens */
+
+:root {
+  /* Let the browser know this page supports both color schemes */
+  color-scheme: light dark;
+
+  /* 1. Color Tokens (using light-dark) */
+  --bg-color: light-dark(#ffffff, #18181b);
+  --text-primary: light-dark(#18181b, #f4f4f5);
+  --border-color: light-dark(#e4e4e7, #27272a);
+  --accent-color: light-dark(#09090b, #ffffff);
+
+  /* 2. Spacing / Layout Tokens */
+  --spacing-sm: 8px;
+  --spacing-md: 10px;
+  --spacing-lg: 12px;
+  --margin-none: 0;
+
+  /* 3. Typography Tokens */
+  --font-size-sm: 11px;
+  --font-size-md: 13px;
+  --font-weight-semibold: 600;
+
+  /* 4. Component Dimension Tokens */
+  --width-popup: 220px;
+  --size-checkbox: 13px;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  width: var(--width-popup);
+  margin: var(--margin-none);
+  padding: var(--spacing-lg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+h2 {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  margin: var(--margin-none);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: var(--margin-none);
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  user-select: none;
+  color: var(--text-primary);
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  margin: var(--margin-none);
+  width: var(--size-checkbox);
+  height: var(--size-checkbox);
+  accent-color: var(--accent-color);
+}

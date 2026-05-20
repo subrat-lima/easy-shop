@@ -1,29 +1,29 @@
 /* product page */
-#corePriceDisplay_desktop_feature_div > div.a-section.a-spacing-small,
-#corePriceDisplay_mobile_feature_div > div.a-section.a-spacing-small,
-span.a-text-strike,
-#newBooksAdditionalPriceInfo_feature_div,
-#Ebooks-mobile-KINDLE_ALC-prices-savingPrice
+.es-block-mrp #corePriceDisplay_desktop_feature_div > div.a-section.a-spacing-small,
+.es-block-mrp #corePriceDisplay_mobile_feature_div > div.a-section.a-spacing-small,
+.es-block-mrp span.a-text-strike,
+.es-block-mrp #newBooksAdditionalPriceInfo_feature_div,
+.es-block-mrp #Ebooks-mobile-KINDLE_ALC-prices-savingPrice
 {
 	display: none !important;
 }
 
 /* search page */
-[data-cy="price-recipe"] div.aok-inline-block,
-[data-cy="price-recipe"] > div.a-color-secondary,
-[data-cy="price-recipe"] span.a-letter-space + span,
-span.a-price[data-a-strike="true"],
-span.a-price[data-a-strike="true"] + span,
-span[class*="price-saving"],
-span[class*="_savingsPercent_"],
-span[class*="saving-percentage"]
+.es-block-mrp [data-cy="price-recipe"] div.aok-inline-block,
+.es-block-mrp [data-cy="price-recipe"] > div.a-color-secondary,
+.es-block-mrp [data-cy="price-recipe"] span.a-letter-space + span,
+.es-block-mrp span.a-price[data-a-strike="true"],
+.es-block-mrp span.a-price[data-a-strike="true"] + span,
+.es-block-mrp span[class*="price-saving"],
+.es-block-mrp span[class*="_savingsPercent_"],
+.es-block-mrp span[class*="saving-percentage"]
 {
 	display: none !important;
 }
 
 /* home page */
-span[aria-label^="Deal Price:"] > span.a-letter-space + span,
-span[aria-label^="Price:"] > span.a-letter-space + span
+.es-block-mrp span[aria-label^="Deal Price:"] > span.a-letter-space + span,
+.es-block-mrp span[aria-label^="Price:"] > span.a-letter-space + span
 {
 	display: none !important;
 }

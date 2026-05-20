@@ -1,12 +1,12 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Easy Shop",
-	"version": "0.0.8",
+	"version": "0.0.9",
 
 	"description": "Simplify the amazon shopping experience by removing bloated content",
 	"homepage_url": "https://github.com/subrat-lima/easy-shop",
 
-	"permissions": ["activeTab"],
+	"permissions": ["storage", "activeTab"],
 
 	"icons": {
 		"128": "icons/easy-128.png",
@@ -14,10 +14,20 @@
 		"32": "icons/easy-32.png"
 	},
 
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"128": "icons/easy-128.png",
+			"64": "icons/easy-64.png",
+			"32": "icons/easy-32.png"
+		}
+	},
+
 	"content_scripts": [
 		{
 			"matches": ["*://*.amazon.in/*"],
 			"css": ["css/ads.css", "css/mrp.css", "css/deal.css", "css/stats.css"],
+			"js": ["content.js"],
 			"run_at": "document_start"
 		}
 	]

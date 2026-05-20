@@ -1,35 +1,35 @@
 /* product page */
-#dealBadge_feature_div,
-.savingsPercentage,
-#simpleBundle_feature_div
+.es-block-deal #dealBadge_feature_div,
+.es-block-deal .savingsPercentage,
+.es-block-deal #simpleBundle_feature_div
 {
 	display: none !important;
 }
 
 /* search page */
-a[href^="/gp/goldbox"],
-span[class*="_dealBadge_"],
-span[class*="_style_badge_"],
-[class*="deal-badge"],
-[class*="dealBadge"],
-div.a-section.a-spacing-none > span.a-size-mini.a-color-secondary,
-#valuePick_container
+.es-block-deal a[href^="/gp/goldbox"],
+.es-block-deal span[class*="_dealBadge_"],
+.es-block-deal span[class*="_style_badge_"],
+.es-block-deal [class*="deal-badge"],
+.es-block-deal [class*="dealBadge"],
+.es-block-deal div.a-section.a-spacing-none > span.a-size-mini.a-color-secondary,
+.es-block-deal #valuePick_container
 {
 	display: none !important;
 }
 
 /* home page */
-div[class*="-atf_deals-"]
+.es-block-deal div[class*="-atf_deals-"]
 {
 	display: none !important;
 }
 
 /* shopping cart page */
-#cart-recs-carousel,
-#cart-item-recs,
-#sc-about,
-[class*="deals-badge"],
-.sc-badge-basis-price
+.es-block-deal #cart-recs-carousel,
+.es-block-deal #cart-item-recs,
+.es-block-deal #sc-about,
+.es-block-deal [class*="deals-badge"],
+.es-block-deal .sc-badge-basis-price
 {
 	display: none !important;
 }
